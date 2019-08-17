@@ -1,0 +1,26 @@
+{
+    "name": "geniussystems/paale",
+    "description": "Guard Package",
+    "type": "library",
+    "require": {
+        "illuminate/http": "^5.8",
+        "lcobucci/jwt": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "spatie/phpunit-watcher": "^1.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yagya Chaudhary",
+            "email": "mail@bdryagya.com.np"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+      "psr-4": {
+        "GeniusSystems\\Paale\\": "src"
+      }
+    }
+}
